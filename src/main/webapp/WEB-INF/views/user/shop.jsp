@@ -124,8 +124,8 @@
 											<c:set var="status_friend" scope="session" value="${0}" />
 											<c:set var="status_follower" scope="session" value="${0}" />
 
-											<li id="status${details_user.id}"><c:forEach var="item_friend"
-													items="${MyFriend}">
+											<li id="status${details_user.id}">
+											<c:forEach var="item_friend" items="${MyFriend}">
 
 													<c:if
 														test="${details_user.id == item_friend.id && details_user.id != User_Infor.id }">
