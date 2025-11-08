@@ -10,7 +10,7 @@
 		<spring.version>5.2.1.RELEASE</spring.version>
 		<hibernate.version>5.4.27.Final</hibernate.version>
 		<jsp.api.version>2.3.1</jsp.api.version>
-		<spring.data>2.3.4.RELEASE</spring.data>
+		<spring.data>2.7.18</spring.data>
 	</properties>
 	<dependencies>
 		<dependency>
